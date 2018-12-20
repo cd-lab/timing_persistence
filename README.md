@@ -1,2 +1,2 @@
-# timing_persistence-
+# timing_persistence
 Tiantian's senior thesis
