@@ -1,0 +1,4 @@
+firstTime,secondTime,corrAns,plusStart,secondStart,respStart,Block.thisRepN,Block.thisTrialN,Block.thisN,Block.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_2.keys,key_resp_2.rt,rtRound1_3.keys,rtRound1_3.corr,rtRound1_3.rt,participant,session,date,expName,frameRate,
+2.1,2.8,right,2.6,3.6,6.4,0,0,0,0,0,0,0,18,space,2.342608400969766,left,0,1.6266331400256604,thesis1,001,2018_Dec_12_1005,TimingTask,59.8870411858097,
+1.8,1.2,left,2.3,3.3,4.5,0,0,0,0,0,1,1,12,,,left,1,1.002159621042665,thesis1,001,2018_Dec_12_1005,TimingTask,59.8870411858097,
+2.5,1.5,left,3.0,4.0,5.5,0,0,0,0,0,2,2,1,,,left,1,0.7188774999813177,thesis1,001,2018_Dec_12_1005,TimingTask,59.8870411858097,

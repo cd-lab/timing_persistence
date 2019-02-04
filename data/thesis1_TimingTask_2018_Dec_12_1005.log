@@ -1,0 +1,73 @@
+40.8656 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1280, 800]. Using actual size
+41.7727 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x129b2dc88>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x12a6a9940>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2560, 1600]), stereo=False, units='norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+41.7727 	EXP 	window1: recordFrameIntervals = False
+41.9373 	EXP 	window1: recordFrameIntervals = True
+42.1212 	EXP 	window1: recordFrameIntervals = False
+42.2795 	EXP 	Created insRound1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='insRound1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+42.2919 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Block starts\n\nPress space', units='norm', win=Window(...), wrapWidth=1)
+42.3096 	EXP 	Created firstcircle_3 = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='firstcircle_3', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.5]), units='norm', vertices=ndarray(...), win=Window(...))
+42.3138 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='norm', win=Window(...), wrapWidth=1)
+42.3172 	EXP 	Created secondcircle = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='secondcircle', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.5]), units='norm', vertices=ndarray(...), win=Window(...))
+42.3223 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='next', units='norm', win=Window(...), wrapWidth=1)
+42.3535 	EXP 	insRound1: autoDraw = True
+43.9004 	DATA 	Keypress: space
+43.9037 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+43.9045 	EXP 	New trial (rep=0, index=0): None
+43.9215 	EXP 	insRound1: autoDraw = False
+43.9215 	EXP 	text: autoDraw = True
+46.2634 	DATA 	Keypress: space
+46.2854 	EXP 	Imported conditionsTime.csv as conditions, 20 conditions, 6 params
+46.2861 	EXP 	Created sequence: random, trialTypes=20, nReps=2, seed=None
+46.2865 	EXP 	New trial (rep=0, index=0): OrderedDict([('firstTime', 2.1), ('secondTime', 2.8), ('corrAns', 'right'), ('plusStart', 2.6), ('secondStart', 3.6), ('respStart', 6.4)])
+46.3096 	EXP 	text: autoDraw = False
+46.3096 	EXP 	text_4: autoDraw = True
+46.7936 	EXP 	text_4: autoDraw = False
+46.8270 	EXP 	firstcircle_3: autoDraw = True
+48.8940 	EXP 	firstcircle_3: autoDraw = False
+48.9108 	EXP 	text_3: autoDraw = True
+49.8950 	EXP 	text_3: autoDraw = False
+49.9107 	EXP 	secondcircle: autoDraw = True
+52.6963 	EXP 	secondcircle: autoDraw = False
+54.3228 	DATA 	Keypress: left
+54.3238 	EXP 	New trial (rep=0, index=1): OrderedDict([('firstTime', 1.8), ('secondTime', 1.2), ('corrAns', 'left'), ('plusStart', 2.3), ('secondStart', 3.3), ('respStart', 4.5)])
+54.3469 	EXP 	firstcircle_3: autoDraw = False
+54.3469 	EXP 	text_3: autoDraw = False
+54.3469 	EXP 	secondcircle: autoDraw = False
+54.3469 	EXP 	text_4: autoDraw = False
+54.3469 	EXP 	text_4: autoDraw = True
+54.8303 	EXP 	text_4: autoDraw = False
+54.8472 	EXP 	firstcircle_3: autoDraw = True
+56.6314 	EXP 	firstcircle_3: autoDraw = False
+56.6480 	EXP 	text_3: autoDraw = True
+57.6320 	EXP 	text_3: autoDraw = False
+57.6482 	EXP 	secondcircle: autoDraw = True
+58.8324 	EXP 	secondcircle: autoDraw = False
+59.8345 	DATA 	Keypress: left
+59.8353 	EXP 	New trial (rep=0, index=2): OrderedDict([('firstTime', 2.5), ('secondTime', 1.5), ('corrAns', 'left'), ('plusStart', 3.0), ('secondStart', 4.0), ('respStart', 5.5)])
+59.8488 	EXP 	firstcircle_3: autoDraw = False
+59.8488 	EXP 	text_3: autoDraw = False
+59.8488 	EXP 	secondcircle: autoDraw = False
+59.8488 	EXP 	text_4: autoDraw = False
+59.8488 	EXP 	text_4: autoDraw = True
+60.3501 	EXP 	text_4: autoDraw = False
+60.3657 	EXP 	firstcircle_3: autoDraw = True
+62.8509 	EXP 	firstcircle_3: autoDraw = False
+62.8673 	EXP 	text_3: autoDraw = True
+63.8513 	EXP 	text_3: autoDraw = False
+63.8683 	EXP 	secondcircle: autoDraw = True
+65.3521 	EXP 	secondcircle: autoDraw = False
+66.0708 	DATA 	Keypress: left
+66.0716 	EXP 	New trial (rep=0, index=3): OrderedDict([('firstTime', 0.7), ('secondTime', 1.4), ('corrAns', 'right'), ('plusStart', 1.2), ('secondStart', 2.2), ('respStart', 3.6)])
+66.0851 	EXP 	firstcircle_3: autoDraw = False
+66.0851 	EXP 	text_3: autoDraw = False
+66.0851 	EXP 	secondcircle: autoDraw = False
+66.0851 	EXP 	text_4: autoDraw = False
+66.0851 	EXP 	text_4: autoDraw = True
+66.5857 	EXP 	text_4: autoDraw = False
+66.6021 	EXP 	firstcircle_3: autoDraw = True
+67.2864 	EXP 	firstcircle_3: autoDraw = False
+67.3029 	EXP 	text_3: autoDraw = True
+68.2869 	EXP 	text_3: autoDraw = False
+68.3034 	EXP 	secondcircle: autoDraw = True
+68.8081 	DATA 	Keypress: escape
+69.1265 	EXP 	window1: mouseVisible = True
