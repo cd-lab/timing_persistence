@@ -36,31 +36,15 @@ try
     path(path,'stimSubFx');
     
     % name datafile
-    [dataFileName,dataHeader] = gatherSubInfo('wtw-work-3',4);
+    cbal = 1; % all subjects will receive the same block order
+    [dataFileName,dataHeader] = gatherSubInfo('wtw-timing', 1, '', cbal);
     params.datafid = fopen([dataFileName,'.txt'],'w');
-    params.datafid_keytimes = fopen([dataFileName,'_keytimes.txt'],'w'); % file to log keypress times
     params.pracfid = fopen([dataFileName,'_prac.txt'],'w');
     
-    % set parameters based on the counterbalance condition
+    % set parameters for the block order
     % (timing distributions are defined in drawSample.m)
-    %   cb1: HP, passive-active
-    %   cb2: HP, active-passive
-    %   cb3: LP, passive-active
-    %   cb4: LP, active-passive
-    switch dataHeader.cbal
-        case 1
-            timingDistribs = {'logspace_1.75_32', 'unif16'};
-            trialsFx = {@showTrials, @showTrials};
-        case 2
-            timingDistribs = {'unif16', 'unif16'};
-            trialsFx = {@showTrials_key2, @showTrials};
-        case 3
-            timingDistribs = {'logspace_1.75_32', 'logspace_1.75_32'};
-            trialsFx = {@showTrials, @showTrials_key2};
-        case 4
-            timingDistribs = {'logspace_1.75_32', 'logspace_1.75_32'};
-            trialsFx = {@showTrials_key2, @showTrials};
-    end
+    timingDistribs = {'logspace_1.75_32', 'unif16'};
+    trialsFx = {@showTrials, @showTrials};
     
     % open the screen
     bkgd = 80; % set shade of gray for screen background
