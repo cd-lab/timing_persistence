@@ -16,7 +16,7 @@ display.tokenValue = params.payoffLo;
 display.tokenState = 'low';
 display.soldMsg = false;
 display.tokenPresent = false;
-display.trialTimeBar = 0; % pixels in the progress bar
+display.timeBar = rects.timeBar; % initial time-left bar
 
 % show the initial screen
 refreshDisplay(wid,bkgd,rects,display);
@@ -139,22 +139,13 @@ while ((GetSecs-runOnset)<sessSecs) && (trialNum<=trialLimit) % proceed continuo
         changeDisp = true;
     end
 
-    % update the trial-specific elapsed time
-    if strcmp(trialPhase,'waiting')
-        trialTimeElapsed = eventLatency;
-    else
-        trialTimeElapsed = 0;
-    end
-    trialTimeBar = ceil(rects.timeBarMax*trialTimeElapsed/50); % full bar length is 50 sec
-    if display.trialTimeBar~=trialTimeBar
-        display.trialTimeBar = trialTimeBar;
-        changeDisp = true;
-    end
-
-    % digital display of time remaining
-    timeLeft = ceil((runOnset+sessSecs)-timeNow);
-    if display.timeLeft~=timeLeft
-        display.timeLeft = timeLeft;
+    % update analog display of time remaining
+    timeBar = rects.timeBar;
+    timeLeft = runOnset + sessSecs - timeNow;
+    fracTimeLeft = max(0, timeLeft / sessSecs);
+    timeBar(3) = timeBar(1) + fracTimeLeft * rects.timeBarMax;
+    if any(display.timeBar~=timeBar)
+        display.timeBar = timeBar;
         changeDisp = true;
     end
 

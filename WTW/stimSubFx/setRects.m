@@ -24,9 +24,7 @@ tokVCen = mean([rects.token(2),rects.token(4)]);
 rects.soldY = tokVCen - 0.5*boundRect(4);
 
 % position of time-elapsed scale
-rects.timeBarMax = 400; % largest amt to be added to 3rd element of timeBar
-rects.timeBar = pointRect + [-200, 40, rects.timeBarMax-200, 60];
-rects.timeBarBorder = rects.timeBar + [-2, -2, 2, 2];
+
 
 % hashX = origin(1) - 200 + floor(rects.timeBarMax*[5,10,15,20,25,90]./100);
 % hashY = ones(size(hashX))*(origin(2)-60);
@@ -50,16 +48,19 @@ switch params.currency
     case 'points', rects.earningsStr = 'Earned:  %d points';
 end
 sampleTxt = sprintf(rects.earningsStr,0);
-boundRect = Screen('TextBounds',wid,sampleTxt);
-rects.earningsMsgXY = origin + [-0.5*boundRect(3), 0.2*scrHeight];
+boundRect_points = Screen('TextBounds',wid,sampleTxt);
+rects.earningsMsgXY = origin + [-0.5*boundRect_points(3), 0.2*scrHeight];
 
-% position of digital total-time-left display
+% ANALOG total-time-left display
 Screen('TextSize',wid,rects.txtsize_msg);
-rects.timeStr = 'Time left:  %02d:%02d';
-sampleTxt = sprintf(rects.timeStr,0,0);
-boundRect = Screen('TextBounds',wid,sampleTxt);
-rects.timeMsgXY = origin + [-0.5*boundRect(3), 0.3*scrHeight];
-
+rects.timeStr = 'Time left in block:  ';
+rects.timeBarMax = 400; % largest amt to be added to 3rd element of timeBar
+boundRect_timeleft = Screen('TextBounds',wid,rects.timeStr); 
+totalWidth = boundRect_timeleft(3) + 10 + rects.timeBarMax; % total width of the text + margin + graphical bar
+rects.timeMsgXY = origin + [-0.5*totalWidth, 0.3*scrHeight]; % center the text + bar
+timeStrRightMargin = rects.timeMsgXY(1) + boundRect_timeleft(3);
+rects.timeBar = [timeStrRightMargin+10, rects.timeMsgXY(2)+10, timeStrRightMargin+10+rects.timeBarMax, rects.timeMsgXY(2)+40];
+rects.timeBarBorder = rects.timeBar + 3*[-1, -1, 1, 1];
 
 
 

@@ -35,18 +35,6 @@ if display.tokenPresent
     end
 end
 
-% progress bar for elapsed time within trial
-timeColor = [200, 200, 200];
-% frame for progress bar
-Screen('FillRect',wid,0,rects.timeBarBorder);
-Screen('FillRect',wid,bkgd,rects.timeBar);
-    %%%% OPTIONAL: add hash marks to mark possible reward times
-    % Screen('FillRect',wid,0,rects.timeBarHashRects);
-% progress bar itself
-timeBar = rects.timeBar;
-timeBar(3) = timeBar(1) + display.trialTimeBar;
-Screen('FillRect',wid,timeColor,timeBar);
-
 
 % button, point total, and time remaining
 % button (always present)
@@ -73,10 +61,19 @@ switch display.currency
 end
 DrawFormattedText(wid,earningsStr,rects.earningsMsgXY(1),rects.earningsMsgXY(2),255);
 
-% digital display of time left in block
+% analog display of time left in block
 Screen('TextSize',wid,rects.txtsize_msg);
-timeStr = sprintf(rects.timeStr,floor(display.timeLeft/60),floor(mod(display.timeLeft,60)));
-DrawFormattedText(wid,timeStr,rects.timeMsgXY(1),rects.timeMsgXY(2));
+% timeStr = sprintf(rects.timeStr,floor(display.timeLeft/60),floor(mod(display.timeLeft,60)));
+% DrawFormattedText(wid,timeStr,rects.timeMsgXY(1),rects.timeMsgXY(2));
+
+% progress bar for time remaining in block
+DrawFormattedText(wid,rects.timeStr,rects.timeMsgXY(1),rects.timeMsgXY(2),255);
+% frame for progress bar
+Screen('FillRect',wid,0,rects.timeBarBorder);
+Screen('FillRect',wid,bkgd,rects.timeBar);
+% progress bar itself
+timeColor = 220;
+Screen('FillRect',wid,timeColor,display.timeBar);
 
 % show the screen
 flipTime = Screen('Flip',wid);
