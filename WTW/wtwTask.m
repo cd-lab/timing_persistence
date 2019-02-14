@@ -10,7 +10,7 @@ try
     
     %%% modifiable parameters
     % timing
-    sessMins = 1; % block duration in minutes: normally 15
+    sessMins = 0.5; % block duration in minutes: normally 15
     display.iti = 2; % intertrial interval in sec
     % payoff contingencies
     params.currency = 'money'; % set to 'money' or 'points'
