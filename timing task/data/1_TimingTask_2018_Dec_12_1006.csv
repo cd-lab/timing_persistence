@@ -1,0 +1,3 @@
+firstTime,secondTime,corrAns,plusStart,secondStart,respStart,Block.thisRepN,Block.thisTrialN,Block.thisN,Block.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_2.keys,key_resp_2.rt,rtRound1_3.keys,rtRound1_3.corr,rtRound1_3.rt,participant,session,date,expName,frameRate,
+0.9,1.8,right,1.4,2.4,4.2,0,0,0,0,0,0,0,15,space,1.3203345899819396,left,0,2.203334148041904,1,001,2018_Dec_12_1006,TimingTask,60.453596259318616,
+2.1,3.5,right,2.6,3.6,7.1,0,0,0,0,0,1,1,6,,,right,1,0.5348742799833417,1,001,2018_Dec_12_1006,TimingTask,60.453596259318616,

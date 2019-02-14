@@ -98,7 +98,7 @@ switch bkIdx
         % instruc screen 1
         Screen('TextSize',wid,rects.txtsize_msg);
         msg = {};
-        msg{1} = 'In the next block, instead of repeatedly pressing the spacebar you will just need to wait. The token will mature after some amount of time.';
+        msg{1} = 'In the next block, you will be doing the same thing as before. The token will mature after some amount of time.';
         msg{2} = 'Try a practice round. Wait until the token matures, then press the spacebar to sell it.';
         txt = sprintf('%s\n\n',msg{:}); txt((end-1):end) = [];
         showMsg(wid,bkgd,txt,respKey);
