@@ -1,3 +1,9 @@
 
-WTW/wtwTask.m
-Panamath/.DS_Store
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+
+Panamath
+
+
+.DS_Store
