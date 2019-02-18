@@ -59,7 +59,8 @@ boundRect_timeleft = Screen('TextBounds',wid,rects.timeStr);
 totalWidth = boundRect_timeleft(3) + 10 + rects.timeBarMax; % total width of the text + margin + graphical bar
 rects.timeMsgXY = origin + [-0.5*totalWidth, 0.3*scrHeight]; % center the text + bar
 timeStrRightMargin = rects.timeMsgXY(1) + boundRect_timeleft(3);
-rects.timeBar = [timeStrRightMargin+10, rects.timeMsgXY(2)+10, timeStrRightMargin+10+rects.timeBarMax, rects.timeMsgXY(2)+40];
+timeBarYTop = rects.timeMsgXY(2) - 30;
+rects.timeBar = [timeStrRightMargin+10, timeBarYTop, timeStrRightMargin+10+rects.timeBarMax, timeBarYTop+30];
 rects.timeBarBorder = rects.timeBar + 3*[-1, -1, 1, 1];
 
 

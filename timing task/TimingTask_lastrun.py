@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v1.90.3),
-    on Wed Dec 12 10:08:40 2018
+    on Mon Feb 18 11:56:18 2019
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -26,6 +26,7 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
+psychopyVersion = '1.90.3'
 expName = 'TimingTask'  # from the Builder filename that created this script
 expInfo = {'participant': '', 'session': '001'}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
@@ -33,6 +34,7 @@ if dlg.OK == False:
     core.quit()  # user pressed cancel
 expInfo['date'] = data.getDateStr()  # add a simple timestamp
 expInfo['expName'] = expName
+expInfo['psychopyVersion'] = psychopyVersion
 
 # Data file name stem = absolute path + name; later add .psyexp, .csv, .log, etc
 filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])
@@ -40,7 +42,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='/Volumes/GoogleDrive/My Drive/BU/Fall 2018/Thesis/TimingTask_lastrun.py',
+    originPath='/Users/cdlab_admin/Documents/timing_persistence/timing task/TimingTask_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -189,7 +191,7 @@ for thisComponent in instr1Components:
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-Block = data.TrialHandler(nReps=2, method='random', 
+Block = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=[None],
     seed=None, name='Block')
@@ -286,7 +288,7 @@ for thisBlock in Block:
     routineTimer.reset()
     
     # set up handler to look after randomisation of conditions etc
-    trials = data.TrialHandler(nReps=2, method='random', 
+    trials = data.TrialHandler(nReps=1, method='sequential', 
         extraInfo=expInfo, originPath=-1,
         trialList=data.importConditions('conditionsTime.csv'),
         seed=None, name='trials')
@@ -427,11 +429,11 @@ for thisBlock in Block:
         routineTimer.reset()
         thisExp.nextEntry()
         
-    # completed 2 repeats of 'trials'
+    # completed 1 repeats of 'trials'
     
     thisExp.nextEntry()
     
-# completed 2 repeats of 'Block'
+# completed 1 repeats of 'Block'
 
 # these shouldn't be strictly necessary (should auto-save)
 thisExp.saveAsWideText(filename+'.csv')
