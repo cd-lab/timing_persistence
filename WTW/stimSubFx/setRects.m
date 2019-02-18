@@ -21,7 +21,7 @@ rects.tokenBorder = rects.token + [-2, -2, 2, 2];
 Screen('TextSize',wid,rects.txtsize_sold);
 boundRect = Screen('TextBounds',wid,'SOLD');
 tokVCen = mean([rects.token(2),rects.token(4)]);
-rects.soldY = tokVCen - 0.5*boundRect(4);
+rects.soldY = tokVCen + 0.3*boundRect(4);
 
 % position of time-elapsed scale
 

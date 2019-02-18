@@ -25,7 +25,7 @@ if display.tokenPresent
     tokHCen = mean([tokRect(1),tokRect(3)]);
     Screen('TextSize',wid,rects.txtsize_token);
     boundRect = Screen('TextBounds',wid,tokText);
-    DrawFormattedText(wid,tokText,tokHCen-boundRect(3)/2,tokVCen-boundRect(4)/2,255);
+    DrawFormattedText(wid,tokText,tokHCen-boundRect(3)/2,tokVCen + 0.3*boundRect(4),255);
 
     % 'sold' message
     if display.soldMsg
