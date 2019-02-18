@@ -1,0 +1,680 @@
+4.7788 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+5.4294 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x10f1cab70>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x11349dd30>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.4294 	EXP 	window1: recordFrameIntervals = False
+5.5951 	EXP 	window1: recordFrameIntervals = True
+5.7787 	EXP 	window1: recordFrameIntervals = False
+5.8861 	EXP 	Created insRound1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='insRound1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.8955 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Block starts\n\nPress space', units='norm', win=Window(...), wrapWidth=1)
+5.9027 	EXP 	Created firstcircle_3 = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='firstcircle_3', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.5]), units='norm', vertices=ndarray(...), win=Window(...))
+5.9066 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='norm', win=Window(...), wrapWidth=1)
+5.9096 	EXP 	Created secondcircle = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='secondcircle', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.5]), units='norm', vertices=ndarray(...), win=Window(...))
+5.9136 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='next', units='norm', win=Window(...), wrapWidth=1)
+5.9163 	EXP 	Created firstcircle_3 = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='firstcircle_3', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.5]), units='norm', vertices=ndarray(...), win=Window(...))
+5.9183 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='norm', win=Window(...), wrapWidth=1)
+5.9208 	EXP 	Created secondcircle = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='secondcircle', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.5]), units='norm', vertices=ndarray(...), win=Window(...))
+5.9230 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='next', units='norm', win=Window(...), wrapWidth=1)
+5.9307 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='The end', units='norm', win=Window(...), wrapWidth=1)
+5.9451 	EXP 	insRound1: autoDraw = True
+6.6653 	DATA 	Keypress: space
+6.6784 	EXP 	insRound1: autoDraw = False
+6.6784 	EXP 	text: autoDraw = True
+8.8975 	DATA 	Keypress: space
+8.9056 	EXP 	Imported conditionsTime.csv as conditions, 20 conditions, 7 params
+8.9059 	EXP 	Created sequence: sequential, trialTypes=20, nReps=1, seed=None
+8.9063 	EXP 	New trial (rep=0, index=0): OrderedDict([('firstTime', 1.8), ('secondTime', 1.2), ('corrAns', 'left'), ('plusStart', 2.3), ('secondStart', 3.3), ('respStart', 4.5), ('randNum', 0.17368025899999998)])
+8.9117 	EXP 	text: autoDraw = False
+8.9117 	EXP 	text_4: autoDraw = True
+9.4117 	EXP 	text_4: autoDraw = False
+9.4283 	EXP 	firstcircle_3: autoDraw = True
+9.7142 	DATA 	Keypress: right
+11.2117 	EXP 	firstcircle_3: autoDraw = False
+11.2283 	EXP 	text_3: autoDraw = True
+12.2116 	EXP 	text_3: autoDraw = False
+12.2283 	EXP 	secondcircle: autoDraw = True
+13.4116 	EXP 	secondcircle: autoDraw = False
+13.4134 	EXP 	New trial (rep=0, index=1): OrderedDict([('firstTime', 3.6), ('secondTime', 3.2), ('corrAns', 'left'), ('plusStart', 4.1), ('secondStart', 5.1), ('respStart', 8.3), ('randNum', 0.41458448299999995)])
+13.4283 	EXP 	firstcircle_3: autoDraw = False
+13.4283 	EXP 	text_3: autoDraw = False
+13.4283 	EXP 	secondcircle: autoDraw = False
+13.4283 	EXP 	text_4: autoDraw = False
+13.4283 	EXP 	text_4: autoDraw = True
+13.9283 	EXP 	text_4: autoDraw = False
+13.9450 	EXP 	firstcircle_3: autoDraw = True
+17.5282 	EXP 	firstcircle_3: autoDraw = False
+17.5449 	EXP 	text_3: autoDraw = True
+18.5282 	EXP 	text_3: autoDraw = False
+18.5449 	EXP 	secondcircle: autoDraw = True
+19.5470 	DATA 	Keypress: right
+21.7282 	EXP 	secondcircle: autoDraw = False
+21.7296 	EXP 	New trial (rep=0, index=2): OrderedDict([('firstTime', 2.5), ('secondTime', 1.5), ('corrAns', 'left'), ('plusStart', 3.0), ('secondStart', 4.0), ('respStart', 5.5), ('randNum', 0.148607464)])
+21.7448 	EXP 	firstcircle_3: autoDraw = False
+21.7448 	EXP 	text_3: autoDraw = False
+21.7448 	EXP 	secondcircle: autoDraw = False
+21.7448 	EXP 	text_4: autoDraw = False
+21.7448 	EXP 	text_4: autoDraw = True
+22.2448 	EXP 	text_4: autoDraw = False
+22.2615 	EXP 	firstcircle_3: autoDraw = True
+22.8468 	DATA 	Keypress: right
+23.7135 	DATA 	Keypress: right
+23.8977 	DATA 	Keypress: right
+24.0802 	DATA 	Keypress: right
+24.2301 	DATA 	Keypress: right
+24.3635 	DATA 	Keypress: right
+24.5301 	DATA 	Keypress: right
+24.7448 	EXP 	firstcircle_3: autoDraw = False
+24.7616 	EXP 	text_3: autoDraw = True
+25.7448 	EXP 	text_3: autoDraw = False
+25.7615 	EXP 	secondcircle: autoDraw = True
+27.2448 	EXP 	secondcircle: autoDraw = False
+27.2462 	EXP 	New trial (rep=0, index=3): OrderedDict([('firstTime', 1.8), ('secondTime', 2.7), ('corrAns', 'right'), ('plusStart', 2.3), ('secondStart', 3.3), ('respStart', 6.0), ('randNum', 0.13554984)])
+27.2614 	EXP 	firstcircle_3: autoDraw = False
+27.2614 	EXP 	text_3: autoDraw = False
+27.2614 	EXP 	secondcircle: autoDraw = False
+27.2614 	EXP 	text_4: autoDraw = False
+27.2614 	EXP 	text_4: autoDraw = True
+27.7614 	EXP 	text_4: autoDraw = False
+27.7781 	EXP 	firstcircle_3: autoDraw = True
+29.5614 	EXP 	firstcircle_3: autoDraw = False
+29.5781 	EXP 	text_3: autoDraw = True
+30.5614 	EXP 	text_3: autoDraw = False
+30.5781 	EXP 	secondcircle: autoDraw = True
+33.2614 	EXP 	secondcircle: autoDraw = False
+36.8800 	DATA 	Keypress: right
+36.8812 	EXP 	New trial (rep=0, index=4): OrderedDict([('firstTime', 1.2), ('secondTime', 1.8), ('corrAns', 'right'), ('plusStart', 1.7), ('secondStart', 2.7), ('respStart', 4.5), ('randNum', 0.309174352)])
+36.8946 	EXP 	firstcircle_3: autoDraw = False
+36.8946 	EXP 	text_3: autoDraw = False
+36.8946 	EXP 	secondcircle: autoDraw = False
+36.8946 	EXP 	text_4: autoDraw = False
+36.8946 	EXP 	text_4: autoDraw = True
+37.3946 	EXP 	text_4: autoDraw = False
+37.4113 	EXP 	firstcircle_3: autoDraw = True
+38.5948 	EXP 	firstcircle_3: autoDraw = False
+38.6113 	EXP 	text_3: autoDraw = True
+39.5946 	EXP 	text_3: autoDraw = False
+39.6113 	EXP 	secondcircle: autoDraw = True
+41.3946 	EXP 	secondcircle: autoDraw = False
+41.9133 	DATA 	Keypress: right
+41.9149 	EXP 	New trial (rep=0, index=5): OrderedDict([('firstTime', 8.8), ('secondTime', 9.9), ('corrAns', 'right'), ('plusStart', 9.3), ('secondStart', 10.3), ('respStart', 20.2), ('randNum', 0.7009299529999999)])
+41.9279 	EXP 	firstcircle_3: autoDraw = False
+41.9279 	EXP 	text_3: autoDraw = False
+41.9279 	EXP 	secondcircle: autoDraw = False
+41.9279 	EXP 	text_4: autoDraw = False
+41.9279 	EXP 	text_4: autoDraw = True
+42.1965 	DATA 	Keypress: right
+42.4279 	EXP 	text_4: autoDraw = False
+42.4446 	EXP 	firstcircle_3: autoDraw = True
+42.6140 	DATA 	Keypress: right
+42.8966 	DATA 	Keypress: right
+43.1634 	DATA 	Keypress: right
+43.6799 	DATA 	Keypress: right
+43.9133 	DATA 	Keypress: right
+44.6298 	DATA 	Keypress: right
+44.8466 	DATA 	Keypress: right
+45.3965 	DATA 	Keypress: right
+45.8965 	DATA 	Keypress: right
+46.3132 	DATA 	Keypress: right
+46.6465 	DATA 	Keypress: right
+46.8798 	DATA 	Keypress: right
+47.0632 	DATA 	Keypress: right
+51.2278 	EXP 	firstcircle_3: autoDraw = False
+51.2445 	EXP 	text_3: autoDraw = True
+52.2278 	EXP 	text_3: autoDraw = False
+52.2444 	EXP 	secondcircle: autoDraw = True
+52.7132 	DATA 	Keypress: right
+52.9630 	DATA 	Keypress: right
+53.1466 	DATA 	Keypress: right
+59.1798 	DATA 	Keypress: right
+59.7630 	DATA 	Keypress: right
+60.0629 	DATA 	Keypress: right
+60.1964 	DATA 	Keypress: right
+60.4295 	DATA 	Keypress: right
+60.5967 	DATA 	Keypress: right
+62.1276 	EXP 	secondcircle: autoDraw = False
+62.1290 	EXP 	New trial (rep=0, index=6): OrderedDict([('firstTime', 3.3), ('secondTime', 4.4), ('corrAns', 'right'), ('plusStart', 3.8), ('secondStart', 4.8), ('respStart', 9.2), ('randNum', 0.705723743)])
+62.1443 	EXP 	firstcircle_3: autoDraw = False
+62.1443 	EXP 	text_3: autoDraw = False
+62.1443 	EXP 	secondcircle: autoDraw = False
+62.1443 	EXP 	text_4: autoDraw = False
+62.1443 	EXP 	text_4: autoDraw = True
+62.6443 	EXP 	text_4: autoDraw = False
+62.6610 	EXP 	firstcircle_3: autoDraw = True
+63.4796 	DATA 	Keypress: right
+63.7963 	DATA 	Keypress: right
+65.9443 	EXP 	firstcircle_3: autoDraw = False
+65.9609 	EXP 	text_3: autoDraw = True
+66.9443 	EXP 	text_3: autoDraw = False
+66.9609 	EXP 	secondcircle: autoDraw = True
+71.3442 	EXP 	secondcircle: autoDraw = False
+71.3457 	EXP 	New trial (rep=0, index=7): OrderedDict([('firstTime', 3.5), ('secondTime', 2.1), ('corrAns', 'left'), ('plusStart', 4.0), ('secondStart', 5.0), ('respStart', 7.1), ('randNum', 0.544523215)])
+71.3608 	EXP 	firstcircle_3: autoDraw = False
+71.3608 	EXP 	text_3: autoDraw = False
+71.3608 	EXP 	secondcircle: autoDraw = False
+71.3608 	EXP 	text_4: autoDraw = False
+71.3608 	EXP 	text_4: autoDraw = True
+71.3630 	DATA 	Keypress: right
+71.8608 	EXP 	text_4: autoDraw = False
+71.8775 	EXP 	firstcircle_3: autoDraw = True
+75.3608 	EXP 	firstcircle_3: autoDraw = False
+75.3775 	EXP 	text_3: autoDraw = True
+76.2794 	DATA 	Keypress: right
+76.3608 	EXP 	text_3: autoDraw = False
+76.3774 	EXP 	secondcircle: autoDraw = True
+76.6793 	DATA 	Keypress: right
+76.8794 	DATA 	Keypress: right
+77.0461 	DATA 	Keypress: right
+77.1961 	DATA 	Keypress: right
+77.3461 	DATA 	Keypress: right
+77.4626 	DATA 	Keypress: right
+77.6962 	DATA 	Keypress: right
+77.8633 	DATA 	Keypress: right
+78.0461 	DATA 	Keypress: right
+78.2793 	DATA 	Keypress: right
+78.4608 	EXP 	secondcircle: autoDraw = False
+78.4622 	EXP 	New trial (rep=0, index=8): OrderedDict([('firstTime', 1.4), ('secondTime', 0.7), ('corrAns', 'left'), ('plusStart', 1.9), ('secondStart', 2.9), ('respStart', 3.6), ('randNum', 0.53553232)])
+78.4775 	EXP 	firstcircle_3: autoDraw = False
+78.4775 	EXP 	text_3: autoDraw = False
+78.4775 	EXP 	secondcircle: autoDraw = False
+78.4775 	EXP 	text_4: autoDraw = False
+78.4775 	EXP 	text_4: autoDraw = True
+78.4795 	DATA 	Keypress: right
+78.9774 	EXP 	text_4: autoDraw = False
+78.9942 	EXP 	firstcircle_3: autoDraw = True
+79.0460 	DATA 	Keypress: right
+79.2793 	DATA 	Keypress: right
+79.5961 	DATA 	Keypress: right
+79.8461 	DATA 	Keypress: right
+80.0294 	DATA 	Keypress: right
+80.2126 	DATA 	Keypress: right
+80.3774 	EXP 	firstcircle_3: autoDraw = False
+80.3941 	EXP 	text_3: autoDraw = True
+80.4126 	DATA 	Keypress: right
+81.3774 	EXP 	text_3: autoDraw = False
+81.3940 	EXP 	secondcircle: autoDraw = True
+81.7128 	DATA 	Keypress: right
+81.9127 	DATA 	Keypress: right
+82.0774 	EXP 	secondcircle: autoDraw = False
+82.0788 	EXP 	New trial (rep=0, index=9): OrderedDict([('firstTime', 4.4), ('secondTime', 3.3), ('corrAns', 'left'), ('plusStart', 4.9), ('secondStart', 5.9), ('respStart', 9.2), ('randNum', 0.255641654)])
+82.0940 	EXP 	firstcircle_3: autoDraw = False
+82.0940 	EXP 	text_3: autoDraw = False
+82.0940 	EXP 	secondcircle: autoDraw = False
+82.0940 	EXP 	text_4: autoDraw = False
+82.0940 	EXP 	text_4: autoDraw = True
+82.1630 	DATA 	Keypress: right
+82.3962 	DATA 	Keypress: right
+82.5940 	EXP 	text_4: autoDraw = False
+82.6107 	EXP 	firstcircle_3: autoDraw = True
+82.6625 	DATA 	Keypress: right
+83.5970 	DATA 	Keypress: right
+84.5459 	DATA 	Keypress: right
+84.7959 	DATA 	Keypress: right
+84.9461 	DATA 	Keypress: right
+86.1793 	DATA 	Keypress: right
+86.4126 	DATA 	Keypress: right
+86.8626 	DATA 	Keypress: right
+86.9940 	EXP 	firstcircle_3: autoDraw = False
+87.0107 	EXP 	text_3: autoDraw = True
+87.2792 	DATA 	Keypress: right
+87.4626 	DATA 	Keypress: right
+87.7124 	DATA 	Keypress: right
+87.9126 	DATA 	Keypress: right
+87.9941 	EXP 	text_3: autoDraw = False
+88.0106 	EXP 	secondcircle: autoDraw = True
+88.1294 	DATA 	Keypress: right
+88.8792 	DATA 	Keypress: right
+89.0636 	DATA 	Keypress: right
+89.2459 	DATA 	Keypress: right
+91.2939 	EXP 	secondcircle: autoDraw = False
+91.2955 	EXP 	New trial (rep=0, index=10): OrderedDict([('firstTime', 3.2), ('secondTime', 3.6), ('corrAns', 'right'), ('plusStart', 3.7), ('secondStart', 4.7), ('respStart', 8.3), ('randNum', 0.140100939)])
+91.3106 	EXP 	firstcircle_3: autoDraw = False
+91.3106 	EXP 	text_3: autoDraw = False
+91.3106 	EXP 	secondcircle: autoDraw = False
+91.3106 	EXP 	text_4: autoDraw = False
+91.3106 	EXP 	text_4: autoDraw = True
+91.8106 	EXP 	text_4: autoDraw = False
+91.8272 	EXP 	firstcircle_3: autoDraw = True
+92.4627 	DATA 	Keypress: right
+95.0105 	EXP 	firstcircle_3: autoDraw = False
+95.0272 	EXP 	text_3: autoDraw = True
+96.0105 	EXP 	text_3: autoDraw = False
+96.0273 	EXP 	secondcircle: autoDraw = True
+99.6105 	EXP 	secondcircle: autoDraw = False
+99.6119 	EXP 	New trial (rep=0, index=11): OrderedDict([('firstTime', 2.8), ('secondTime', 2.1), ('corrAns', 'left'), ('plusStart', 3.3), ('secondStart', 4.3), ('respStart', 6.4), ('randNum', 0.019093293)])
+99.6271 	EXP 	firstcircle_3: autoDraw = False
+99.6271 	EXP 	text_3: autoDraw = False
+99.6271 	EXP 	secondcircle: autoDraw = False
+99.6271 	EXP 	text_4: autoDraw = False
+99.6271 	EXP 	text_4: autoDraw = True
+100.1271 	EXP 	text_4: autoDraw = False
+100.1438 	EXP 	firstcircle_3: autoDraw = True
+100.2793 	DATA 	Keypress: right
+102.9271 	EXP 	firstcircle_3: autoDraw = False
+102.9438 	EXP 	text_3: autoDraw = True
+103.9271 	EXP 	text_3: autoDraw = False
+103.9438 	EXP 	secondcircle: autoDraw = True
+106.0271 	EXP 	secondcircle: autoDraw = False
+106.0285 	EXP 	New trial (rep=0, index=12): OrderedDict([('firstTime', 0.9), ('secondTime', 1.8), ('corrAns', 'right'), ('plusStart', 1.4), ('secondStart', 2.4), ('respStart', 4.2), ('randNum', 0.461070472)])
+106.0437 	EXP 	firstcircle_3: autoDraw = False
+106.0437 	EXP 	text_3: autoDraw = False
+106.0437 	EXP 	secondcircle: autoDraw = False
+106.0437 	EXP 	text_4: autoDraw = False
+106.0437 	EXP 	text_4: autoDraw = True
+106.3457 	DATA 	Keypress: right
+106.5437 	EXP 	text_4: autoDraw = False
+106.5604 	EXP 	firstcircle_3: autoDraw = True
+107.4437 	EXP 	firstcircle_3: autoDraw = False
+107.4604 	EXP 	text_3: autoDraw = True
+108.4437 	EXP 	text_3: autoDraw = False
+108.4603 	EXP 	secondcircle: autoDraw = True
+110.2437 	EXP 	secondcircle: autoDraw = False
+110.2451 	EXP 	New trial (rep=0, index=13): OrderedDict([('firstTime', 2.1), ('secondTime', 2.8), ('corrAns', 'right'), ('plusStart', 2.6), ('secondStart', 3.6), ('respStart', 6.4), ('randNum', 0.22761601199999998)])
+110.2603 	EXP 	firstcircle_3: autoDraw = False
+110.2603 	EXP 	text_3: autoDraw = False
+110.2603 	EXP 	secondcircle: autoDraw = False
+110.2603 	EXP 	text_4: autoDraw = False
+110.2603 	EXP 	text_4: autoDraw = True
+110.5123 	DATA 	Keypress: right
+110.7603 	EXP 	text_4: autoDraw = False
+110.7770 	EXP 	firstcircle_3: autoDraw = True
+112.8603 	EXP 	firstcircle_3: autoDraw = False
+112.8770 	EXP 	text_3: autoDraw = True
+113.8603 	EXP 	text_3: autoDraw = False
+113.8769 	EXP 	secondcircle: autoDraw = True
+114.3290 	DATA 	Keypress: right
+115.3956 	DATA 	Keypress: right
+115.7454 	DATA 	Keypress: right
+116.6602 	EXP 	secondcircle: autoDraw = False
+116.6617 	EXP 	New trial (rep=0, index=14): OrderedDict([('firstTime', 0.7), ('secondTime', 1.4), ('corrAns', 'right'), ('plusStart', 1.2), ('secondStart', 2.2), ('respStart', 3.6), ('randNum', 0.436550891)])
+116.6769 	EXP 	firstcircle_3: autoDraw = False
+116.6769 	EXP 	text_3: autoDraw = False
+116.6769 	EXP 	secondcircle: autoDraw = False
+116.6769 	EXP 	text_4: autoDraw = False
+116.6769 	EXP 	text_4: autoDraw = True
+117.1769 	EXP 	text_4: autoDraw = False
+117.1936 	EXP 	firstcircle_3: autoDraw = True
+117.8769 	EXP 	firstcircle_3: autoDraw = False
+117.8936 	EXP 	text_3: autoDraw = True
+118.8769 	EXP 	text_3: autoDraw = False
+118.8935 	EXP 	secondcircle: autoDraw = True
+120.2769 	EXP 	secondcircle: autoDraw = False
+122.2959 	DATA 	Keypress: right
+122.3116 	EXP 	New trial (rep=0, index=15): OrderedDict([('firstTime', 1.8), ('secondTime', 0.9), ('corrAns', 'left'), ('plusStart', 2.3), ('secondStart', 3.3), ('respStart', 4.2), ('randNum', 0.028891147000000002)])
+122.3268 	EXP 	firstcircle_3: autoDraw = False
+122.3268 	EXP 	text_3: autoDraw = False
+122.3268 	EXP 	secondcircle: autoDraw = False
+122.3268 	EXP 	text_4: autoDraw = False
+122.3268 	EXP 	text_4: autoDraw = True
+122.8268 	EXP 	text_4: autoDraw = False
+122.8435 	EXP 	firstcircle_3: autoDraw = True
+124.6268 	EXP 	firstcircle_3: autoDraw = False
+124.6435 	EXP 	text_3: autoDraw = True
+125.6268 	EXP 	text_3: autoDraw = False
+125.6434 	EXP 	secondcircle: autoDraw = True
+126.5268 	EXP 	secondcircle: autoDraw = False
+128.1122 	DATA 	Keypress: right
+128.1133 	EXP 	New trial (rep=0, index=16): OrderedDict([('firstTime', 2.7), ('secondTime', 1.8), ('corrAns', 'left'), ('plusStart', 3.2), ('secondStart', 4.2), ('respStart', 6.0), ('randNum', 0.277400549)])
+128.1267 	EXP 	firstcircle_3: autoDraw = False
+128.1267 	EXP 	text_3: autoDraw = False
+128.1267 	EXP 	secondcircle: autoDraw = False
+128.1267 	EXP 	text_4: autoDraw = False
+128.1267 	EXP 	text_4: autoDraw = True
+128.6267 	EXP 	text_4: autoDraw = False
+128.6434 	EXP 	firstcircle_3: autoDraw = True
+131.3267 	EXP 	firstcircle_3: autoDraw = False
+131.3434 	EXP 	text_3: autoDraw = True
+132.3267 	EXP 	text_3: autoDraw = False
+132.3434 	EXP 	secondcircle: autoDraw = True
+132.7287 	DATA 	Keypress: right
+134.0953 	DATA 	Keypress: right
+134.1267 	EXP 	secondcircle: autoDraw = False
+134.1281 	EXP 	New trial (rep=0, index=17): OrderedDict([('firstTime', 9.9), ('secondTime', 8.8), ('corrAns', 'left'), ('plusStart', 10.4), ('secondStart', 11.4), ('respStart', 20.2), ('randNum', 0.9607848720000001)])
+134.1433 	EXP 	firstcircle_3: autoDraw = False
+134.1433 	EXP 	text_3: autoDraw = False
+134.1433 	EXP 	secondcircle: autoDraw = False
+134.1433 	EXP 	text_4: autoDraw = False
+134.1433 	EXP 	text_4: autoDraw = True
+134.5121 	DATA 	Keypress: right
+134.6433 	EXP 	text_4: autoDraw = False
+134.6600 	EXP 	firstcircle_3: autoDraw = True
+144.5432 	EXP 	firstcircle_3: autoDraw = False
+144.5599 	EXP 	text_3: autoDraw = True
+144.6118 	DATA 	Keypress: right
+145.5432 	EXP 	text_3: autoDraw = False
+145.5599 	EXP 	secondcircle: autoDraw = True
+154.3431 	EXP 	secondcircle: autoDraw = False
+154.3444 	EXP 	New trial (rep=0, index=18): OrderedDict([('firstTime', 2.1), ('secondTime', 3.5), ('corrAns', 'right'), ('plusStart', 2.6), ('secondStart', 3.6), ('respStart', 7.1), ('randNum', 0.609327094)])
+154.3597 	EXP 	firstcircle_3: autoDraw = False
+154.3597 	EXP 	text_3: autoDraw = False
+154.3597 	EXP 	secondcircle: autoDraw = False
+154.3597 	EXP 	text_4: autoDraw = False
+154.3597 	EXP 	text_4: autoDraw = True
+154.8597 	EXP 	text_4: autoDraw = False
+154.8619 	DATA 	Keypress: right
+154.8764 	EXP 	firstcircle_3: autoDraw = True
+156.9597 	EXP 	firstcircle_3: autoDraw = False
+156.9764 	EXP 	text_3: autoDraw = True
+157.9597 	EXP 	text_3: autoDraw = False
+157.9764 	EXP 	secondcircle: autoDraw = True
+158.6950 	DATA 	Keypress: right
+161.4596 	EXP 	secondcircle: autoDraw = False
+161.4611 	EXP 	New trial (rep=0, index=19): OrderedDict([('firstTime', 1.5), ('secondTime', 2.5), ('corrAns', 'right'), ('plusStart', 2.0), ('secondStart', 3.0), ('respStart', 5.5), ('randNum', 0.487304505)])
+161.4763 	EXP 	firstcircle_3: autoDraw = False
+161.4763 	EXP 	text_3: autoDraw = False
+161.4763 	EXP 	secondcircle: autoDraw = False
+161.4763 	EXP 	text_4: autoDraw = False
+161.4763 	EXP 	text_4: autoDraw = True
+161.9763 	EXP 	text_4: autoDraw = False
+161.9930 	EXP 	firstcircle_3: autoDraw = True
+162.1616 	DATA 	Keypress: right
+163.4763 	EXP 	firstcircle_3: autoDraw = False
+163.4929 	EXP 	text_3: autoDraw = True
+164.4763 	EXP 	text_3: autoDraw = False
+164.4929 	EXP 	secondcircle: autoDraw = True
+166.9762 	EXP 	secondcircle: autoDraw = False
+166.9827 	EXP 	Imported conditionsTime2.csv as conditions, 20 conditions, 7 params
+166.9830 	EXP 	Created sequence: sequential, trialTypes=20, nReps=1, seed=None
+166.9834 	EXP 	New trial (rep=0, index=0): OrderedDict([('firstTime', 9.9), ('secondTime', 8.8), ('corrAns', 'left'), ('plusStart', 10.4), ('secondStart', 11.4), ('respStart', 20.2), ('randNum', 0.6005130679999999)])
+166.9929 	EXP 	firstcircle_3: autoDraw = False
+166.9929 	EXP 	text_3: autoDraw = False
+166.9929 	EXP 	secondcircle: autoDraw = False
+166.9929 	EXP 	text_4: autoDraw = False
+166.9929 	EXP 	text_4: autoDraw = True
+167.4929 	EXP 	text_4: autoDraw = False
+167.5095 	EXP 	firstcircle_3: autoDraw = True
+167.5616 	DATA 	Keypress: right
+172.5949 	DATA 	Keypress: right
+172.8948 	DATA 	Keypress: right
+173.0782 	DATA 	Keypress: right
+173.2948 	DATA 	Keypress: right
+173.4781 	DATA 	Keypress: right
+173.7948 	DATA 	Keypress: right
+173.9782 	DATA 	Keypress: right
+174.6285 	DATA 	Keypress: right
+174.8114 	DATA 	Keypress: right
+174.9448 	DATA 	Keypress: right
+175.3114 	DATA 	Keypress: right
+175.5455 	DATA 	Keypress: right
+175.7614 	DATA 	Keypress: right
+177.3927 	EXP 	firstcircle_3: autoDraw = False
+177.4094 	EXP 	text_3: autoDraw = True
+178.3927 	EXP 	text_3: autoDraw = False
+178.4094 	EXP 	secondcircle: autoDraw = True
+178.8614 	DATA 	Keypress: right
+179.1957 	DATA 	Keypress: right
+179.3947 	DATA 	Keypress: right
+179.5781 	DATA 	Keypress: right
+187.1926 	EXP 	secondcircle: autoDraw = False
+187.1944 	EXP 	New trial (rep=0, index=1): OrderedDict([('firstTime', 1.5), ('secondTime', 2.5), ('corrAns', 'right'), ('plusStart', 2.0), ('secondStart', 3.0), ('respStart', 5.5), ('randNum', 0.805142221)])
+187.2093 	EXP 	firstcircle_3: autoDraw = False
+187.2093 	EXP 	text_3: autoDraw = False
+187.2093 	EXP 	secondcircle: autoDraw = False
+187.2093 	EXP 	text_4: autoDraw = False
+187.2093 	EXP 	text_4: autoDraw = True
+187.6447 	DATA 	Keypress: right
+187.7093 	EXP 	text_4: autoDraw = False
+187.7259 	EXP 	firstcircle_3: autoDraw = True
+189.2093 	EXP 	firstcircle_3: autoDraw = False
+189.2259 	EXP 	text_3: autoDraw = True
+190.2092 	EXP 	text_3: autoDraw = False
+190.2259 	EXP 	secondcircle: autoDraw = True
+190.7446 	DATA 	Keypress: right
+192.7092 	EXP 	secondcircle: autoDraw = False
+192.7110 	EXP 	New trial (rep=0, index=2): OrderedDict([('firstTime', 0.7), ('secondTime', 1.4), ('corrAns', 'right'), ('plusStart', 1.2), ('secondStart', 2.2), ('respStart', 3.6), ('randNum', 0.70587608)])
+192.7259 	EXP 	firstcircle_3: autoDraw = False
+192.7259 	EXP 	text_3: autoDraw = False
+192.7259 	EXP 	secondcircle: autoDraw = False
+192.7259 	EXP 	text_4: autoDraw = False
+192.7259 	EXP 	text_4: autoDraw = True
+193.2259 	EXP 	text_4: autoDraw = False
+193.2425 	EXP 	firstcircle_3: autoDraw = True
+193.9259 	EXP 	firstcircle_3: autoDraw = False
+193.9425 	EXP 	text_3: autoDraw = True
+194.1777 	DATA 	Keypress: right
+194.9258 	EXP 	text_3: autoDraw = False
+194.9426 	EXP 	secondcircle: autoDraw = True
+196.3258 	EXP 	secondcircle: autoDraw = False
+196.3273 	EXP 	New trial (rep=0, index=3): OrderedDict([('firstTime', 1.2), ('secondTime', 1.8), ('corrAns', 'right'), ('plusStart', 1.7), ('secondStart', 2.7), ('respStart', 4.5), ('randNum', 0.276216099)])
+196.3425 	EXP 	firstcircle_3: autoDraw = False
+196.3425 	EXP 	text_3: autoDraw = False
+196.3425 	EXP 	secondcircle: autoDraw = False
+196.3425 	EXP 	text_4: autoDraw = False
+196.3425 	EXP 	text_4: autoDraw = True
+196.8425 	EXP 	text_4: autoDraw = False
+196.8592 	EXP 	firstcircle_3: autoDraw = True
+198.0425 	EXP 	firstcircle_3: autoDraw = False
+198.0591 	EXP 	text_3: autoDraw = True
+199.0425 	EXP 	text_3: autoDraw = False
+199.0591 	EXP 	secondcircle: autoDraw = True
+199.5946 	DATA 	Keypress: right
+200.8424 	EXP 	secondcircle: autoDraw = False
+200.8439 	EXP 	New trial (rep=0, index=4): OrderedDict([('firstTime', 3.3), ('secondTime', 4.4), ('corrAns', 'right'), ('plusStart', 3.8), ('secondStart', 4.8), ('respStart', 9.2), ('randNum', 0.803512663)])
+200.8591 	EXP 	firstcircle_3: autoDraw = False
+200.8591 	EXP 	text_3: autoDraw = False
+200.8591 	EXP 	secondcircle: autoDraw = False
+200.8591 	EXP 	text_4: autoDraw = False
+200.8591 	EXP 	text_4: autoDraw = True
+201.3591 	EXP 	text_4: autoDraw = False
+201.3758 	EXP 	firstcircle_3: autoDraw = True
+201.5278 	DATA 	Keypress: right
+204.6591 	EXP 	firstcircle_3: autoDraw = False
+204.6757 	EXP 	text_3: autoDraw = True
+205.6590 	EXP 	text_3: autoDraw = False
+205.6757 	EXP 	secondcircle: autoDraw = True
+210.0590 	EXP 	secondcircle: autoDraw = False
+210.0604 	EXP 	New trial (rep=0, index=5): OrderedDict([('firstTime', 2.1), ('secondTime', 2.8), ('corrAns', 'right'), ('plusStart', 2.6), ('secondStart', 3.6), ('respStart', 6.4), ('randNum', 0.26721103399999996)])
+210.0756 	EXP 	firstcircle_3: autoDraw = False
+210.0756 	EXP 	text_3: autoDraw = False
+210.0756 	EXP 	secondcircle: autoDraw = False
+210.0756 	EXP 	text_4: autoDraw = False
+210.0756 	EXP 	text_4: autoDraw = True
+210.5757 	EXP 	text_4: autoDraw = False
+210.5923 	EXP 	firstcircle_3: autoDraw = True
+210.9278 	DATA 	Keypress: right
+212.6756 	EXP 	firstcircle_3: autoDraw = False
+212.6923 	EXP 	text_3: autoDraw = True
+213.6756 	EXP 	text_3: autoDraw = False
+213.6923 	EXP 	secondcircle: autoDraw = True
+214.4441 	DATA 	Keypress: right
+216.4756 	EXP 	secondcircle: autoDraw = False
+216.4770 	EXP 	New trial (rep=0, index=6): OrderedDict([('firstTime', 2.8), ('secondTime', 2.1), ('corrAns', 'left'), ('plusStart', 3.3), ('secondStart', 4.3), ('respStart', 6.4), ('randNum', 0.1426323)])
+216.4922 	EXP 	firstcircle_3: autoDraw = False
+216.4922 	EXP 	text_3: autoDraw = False
+216.4922 	EXP 	secondcircle: autoDraw = False
+216.4922 	EXP 	text_4: autoDraw = False
+216.4922 	EXP 	text_4: autoDraw = True
+216.9923 	EXP 	text_4: autoDraw = False
+217.0090 	EXP 	firstcircle_3: autoDraw = True
+219.7922 	EXP 	firstcircle_3: autoDraw = False
+219.8088 	EXP 	text_3: autoDraw = True
+220.7922 	EXP 	text_3: autoDraw = False
+220.8088 	EXP 	secondcircle: autoDraw = True
+222.8921 	EXP 	secondcircle: autoDraw = False
+224.3775 	DATA 	Keypress: right
+224.3787 	EXP 	New trial (rep=0, index=7): OrderedDict([('firstTime', 2.7), ('secondTime', 1.8), ('corrAns', 'left'), ('plusStart', 3.2), ('secondStart', 4.2), ('respStart', 6.0), ('randNum', 0.15619143)])
+224.3921 	EXP 	firstcircle_3: autoDraw = False
+224.3921 	EXP 	text_3: autoDraw = False
+224.3921 	EXP 	secondcircle: autoDraw = False
+224.3921 	EXP 	text_4: autoDraw = False
+224.3921 	EXP 	text_4: autoDraw = True
+224.8921 	EXP 	text_4: autoDraw = False
+224.9088 	EXP 	firstcircle_3: autoDraw = True
+227.5921 	EXP 	firstcircle_3: autoDraw = False
+227.6087 	EXP 	text_3: autoDraw = True
+228.5920 	EXP 	text_3: autoDraw = False
+228.6087 	EXP 	secondcircle: autoDraw = True
+230.3920 	EXP 	secondcircle: autoDraw = False
+231.7274 	DATA 	Keypress: right
+231.7285 	EXP 	New trial (rep=0, index=8): OrderedDict([('firstTime', 8.8), ('secondTime', 9.9), ('corrAns', 'right'), ('plusStart', 9.3), ('secondStart', 10.3), ('respStart', 20.2), ('randNum', 0.549248995)])
+231.7421 	EXP 	firstcircle_3: autoDraw = False
+231.7421 	EXP 	text_3: autoDraw = False
+231.7421 	EXP 	secondcircle: autoDraw = False
+231.7421 	EXP 	text_4: autoDraw = False
+231.7421 	EXP 	text_4: autoDraw = True
+232.2420 	EXP 	text_4: autoDraw = False
+232.2587 	EXP 	firstcircle_3: autoDraw = True
+241.0419 	EXP 	firstcircle_3: autoDraw = False
+241.0586 	EXP 	text_3: autoDraw = True
+241.8774 	DATA 	Keypress: right
+242.0419 	EXP 	text_3: autoDraw = False
+242.0585 	EXP 	secondcircle: autoDraw = True
+251.9417 	EXP 	secondcircle: autoDraw = False
+251.9437 	EXP 	New trial (rep=0, index=9): OrderedDict([('firstTime', 2.5), ('secondTime', 1.5), ('corrAns', 'left'), ('plusStart', 3.0), ('secondStart', 4.0), ('respStart', 5.5), ('randNum', 0.358211186)])
+251.9584 	EXP 	firstcircle_3: autoDraw = False
+251.9584 	EXP 	text_3: autoDraw = False
+251.9584 	EXP 	secondcircle: autoDraw = False
+251.9584 	EXP 	text_4: autoDraw = False
+251.9584 	EXP 	text_4: autoDraw = True
+252.4584 	EXP 	text_4: autoDraw = False
+252.4751 	EXP 	firstcircle_3: autoDraw = True
+254.9584 	EXP 	firstcircle_3: autoDraw = False
+254.9750 	EXP 	text_3: autoDraw = True
+255.9584 	EXP 	text_3: autoDraw = False
+255.9750 	EXP 	secondcircle: autoDraw = True
+257.4584 	EXP 	secondcircle: autoDraw = False
+258.2270 	DATA 	Keypress: right
+258.2281 	EXP 	New trial (rep=0, index=10): OrderedDict([('firstTime', 1.8), ('secondTime', 0.9), ('corrAns', 'left'), ('plusStart', 2.3), ('secondStart', 3.3), ('respStart', 4.2), ('randNum', 0.907401646)])
+258.2417 	EXP 	firstcircle_3: autoDraw = False
+258.2417 	EXP 	text_3: autoDraw = False
+258.2417 	EXP 	secondcircle: autoDraw = False
+258.2417 	EXP 	text_4: autoDraw = False
+258.2417 	EXP 	text_4: autoDraw = True
+258.7417 	EXP 	text_4: autoDraw = False
+258.7583 	EXP 	firstcircle_3: autoDraw = True
+260.5416 	EXP 	firstcircle_3: autoDraw = False
+260.5583 	EXP 	text_3: autoDraw = True
+261.5416 	EXP 	text_3: autoDraw = False
+261.5583 	EXP 	secondcircle: autoDraw = True
+262.3936 	DATA 	Keypress: right
+262.4416 	EXP 	secondcircle: autoDraw = False
+262.4431 	EXP 	New trial (rep=0, index=11): OrderedDict([('firstTime', 3.2), ('secondTime', 3.6), ('corrAns', 'right'), ('plusStart', 3.7), ('secondStart', 4.7), ('respStart', 8.3), ('randNum', 0.40261677799999995)])
+262.4583 	EXP 	firstcircle_3: autoDraw = False
+262.4583 	EXP 	text_3: autoDraw = False
+262.4583 	EXP 	secondcircle: autoDraw = False
+262.4583 	EXP 	text_4: autoDraw = False
+262.4583 	EXP 	text_4: autoDraw = True
+262.9583 	EXP 	text_4: autoDraw = False
+262.9749 	EXP 	firstcircle_3: autoDraw = True
+266.1582 	EXP 	firstcircle_3: autoDraw = False
+266.1749 	EXP 	text_3: autoDraw = True
+267.1582 	EXP 	text_3: autoDraw = False
+267.1749 	EXP 	secondcircle: autoDraw = True
+270.0278 	DATA 	Keypress: right
+270.7582 	EXP 	secondcircle: autoDraw = False
+270.7595 	EXP 	New trial (rep=0, index=12): OrderedDict([('firstTime', 2.1), ('secondTime', 3.5), ('corrAns', 'right'), ('plusStart', 2.6), ('secondStart', 3.6), ('respStart', 7.1), ('randNum', 0.699018652)])
+270.7748 	EXP 	firstcircle_3: autoDraw = False
+270.7748 	EXP 	text_3: autoDraw = False
+270.7748 	EXP 	secondcircle: autoDraw = False
+270.7748 	EXP 	text_4: autoDraw = False
+270.7748 	EXP 	text_4: autoDraw = True
+271.2748 	EXP 	text_4: autoDraw = False
+271.2915 	EXP 	firstcircle_3: autoDraw = True
+273.3748 	EXP 	firstcircle_3: autoDraw = False
+273.3914 	EXP 	text_3: autoDraw = True
+274.3748 	EXP 	text_3: autoDraw = False
+274.3915 	EXP 	secondcircle: autoDraw = True
+276.7444 	DATA 	Keypress: left
+277.8748 	EXP 	secondcircle: autoDraw = False
+277.8762 	EXP 	New trial (rep=0, index=13): OrderedDict([('firstTime', 1.8), ('secondTime', 2.7), ('corrAns', 'right'), ('plusStart', 2.3), ('secondStart', 3.3), ('respStart', 6.0), ('randNum', 0.8590765890000001)])
+277.8914 	EXP 	firstcircle_3: autoDraw = False
+277.8914 	EXP 	text_3: autoDraw = False
+277.8914 	EXP 	secondcircle: autoDraw = False
+277.8914 	EXP 	text_4: autoDraw = False
+277.8914 	EXP 	text_4: autoDraw = True
+278.3915 	EXP 	text_4: autoDraw = False
+278.4081 	EXP 	firstcircle_3: autoDraw = True
+280.1914 	EXP 	firstcircle_3: autoDraw = False
+280.2080 	EXP 	text_3: autoDraw = True
+281.1914 	EXP 	text_3: autoDraw = False
+281.2080 	EXP 	secondcircle: autoDraw = True
+283.8913 	EXP 	secondcircle: autoDraw = False
+284.7770 	DATA 	Keypress: right
+284.7781 	EXP 	New trial (rep=0, index=14): OrderedDict([('firstTime', 1.4), ('secondTime', 0.7), ('corrAns', 'left'), ('plusStart', 1.9), ('secondStart', 2.9), ('respStart', 3.6), ('randNum', 0.413030013)])
+284.7913 	EXP 	firstcircle_3: autoDraw = False
+284.7913 	EXP 	text_3: autoDraw = False
+284.7913 	EXP 	secondcircle: autoDraw = False
+284.7913 	EXP 	text_4: autoDraw = False
+284.7913 	EXP 	text_4: autoDraw = True
+285.2913 	EXP 	text_4: autoDraw = False
+285.3080 	EXP 	firstcircle_3: autoDraw = True
+286.6913 	EXP 	firstcircle_3: autoDraw = False
+286.7080 	EXP 	text_3: autoDraw = True
+287.6913 	EXP 	text_3: autoDraw = False
+287.7079 	EXP 	secondcircle: autoDraw = True
+288.3912 	EXP 	secondcircle: autoDraw = False
+292.6601 	DATA 	Keypress: left
+292.6612 	EXP 	New trial (rep=0, index=15): OrderedDict([('firstTime', 3.6), ('secondTime', 3.2), ('corrAns', 'left'), ('plusStart', 4.1), ('secondStart', 5.1), ('respStart', 8.3), ('randNum', 0.12198344800000001)])
+292.6745 	EXP 	firstcircle_3: autoDraw = False
+292.6745 	EXP 	text_3: autoDraw = False
+292.6745 	EXP 	secondcircle: autoDraw = False
+292.6745 	EXP 	text_4: autoDraw = False
+292.6745 	EXP 	text_4: autoDraw = True
+293.1745 	EXP 	text_4: autoDraw = False
+293.1912 	EXP 	firstcircle_3: autoDraw = True
+296.6433 	DATA 	Keypress: right
+296.7745 	EXP 	firstcircle_3: autoDraw = False
+296.7911 	EXP 	text_3: autoDraw = True
+297.7745 	EXP 	text_3: autoDraw = False
+297.7911 	EXP 	secondcircle: autoDraw = True
+298.9767 	DATA 	Keypress: right
+300.9744 	EXP 	secondcircle: autoDraw = False
+300.9758 	EXP 	New trial (rep=0, index=16): OrderedDict([('firstTime', 4.4), ('secondTime', 3.3), ('corrAns', 'left'), ('plusStart', 4.9), ('secondStart', 5.9), ('respStart', 9.2), ('randNum', 0.7908218929999999)])
+300.9911 	EXP 	firstcircle_3: autoDraw = False
+300.9911 	EXP 	text_3: autoDraw = False
+300.9911 	EXP 	secondcircle: autoDraw = False
+300.9911 	EXP 	text_4: autoDraw = False
+300.9911 	EXP 	text_4: autoDraw = True
+301.4911 	EXP 	text_4: autoDraw = False
+301.5077 	EXP 	firstcircle_3: autoDraw = True
+305.8910 	EXP 	firstcircle_3: autoDraw = False
+305.9077 	EXP 	text_3: autoDraw = True
+306.8911 	EXP 	text_3: autoDraw = False
+306.9077 	EXP 	secondcircle: autoDraw = True
+310.1910 	EXP 	secondcircle: autoDraw = False
+310.7764 	DATA 	Keypress: right
+310.7775 	EXP 	New trial (rep=0, index=17): OrderedDict([('firstTime', 3.5), ('secondTime', 2.1), ('corrAns', 'left'), ('plusStart', 4.0), ('secondStart', 5.0), ('respStart', 7.1), ('randNum', 0.149007794)])
+310.7909 	EXP 	firstcircle_3: autoDraw = False
+310.7909 	EXP 	text_3: autoDraw = False
+310.7909 	EXP 	secondcircle: autoDraw = False
+310.7909 	EXP 	text_4: autoDraw = False
+310.7909 	EXP 	text_4: autoDraw = True
+311.2909 	EXP 	text_4: autoDraw = False
+311.3077 	EXP 	firstcircle_3: autoDraw = True
+314.7909 	EXP 	firstcircle_3: autoDraw = False
+314.8076 	EXP 	text_3: autoDraw = True
+315.7909 	EXP 	text_3: autoDraw = False
+315.8076 	EXP 	secondcircle: autoDraw = True
+317.8909 	EXP 	secondcircle: autoDraw = False
+320.6264 	DATA 	Keypress: left
+320.6275 	EXP 	New trial (rep=0, index=18): OrderedDict([('firstTime', 1.8), ('secondTime', 1.2), ('corrAns', 'left'), ('plusStart', 2.3), ('secondStart', 3.3), ('respStart', 4.5), ('randNum', 0.44825194799999996)])
+320.6408 	EXP 	firstcircle_3: autoDraw = False
+320.6408 	EXP 	text_3: autoDraw = False
+320.6408 	EXP 	secondcircle: autoDraw = False
+320.6408 	EXP 	text_4: autoDraw = False
+320.6408 	EXP 	text_4: autoDraw = True
+321.1409 	EXP 	text_4: autoDraw = False
+321.1575 	EXP 	firstcircle_3: autoDraw = True
+322.9408 	EXP 	firstcircle_3: autoDraw = False
+322.9575 	EXP 	text_3: autoDraw = True
+323.9408 	EXP 	text_3: autoDraw = False
+323.9574 	EXP 	secondcircle: autoDraw = True
+324.6761 	DATA 	Keypress: left
+325.1408 	EXP 	secondcircle: autoDraw = False
+325.1422 	EXP 	New trial (rep=0, index=19): OrderedDict([('firstTime', 0.9), ('secondTime', 1.8), ('corrAns', 'right'), ('plusStart', 1.4), ('secondStart', 2.4), ('respStart', 4.2), ('randNum', 0.35938568299999996)])
+325.1574 	EXP 	firstcircle_3: autoDraw = False
+325.1574 	EXP 	text_3: autoDraw = False
+325.1574 	EXP 	secondcircle: autoDraw = False
+325.1574 	EXP 	text_4: autoDraw = False
+325.1574 	EXP 	text_4: autoDraw = True
+325.6574 	EXP 	text_4: autoDraw = False
+325.6741 	EXP 	firstcircle_3: autoDraw = True
+326.5574 	EXP 	firstcircle_3: autoDraw = False
+326.5741 	EXP 	text_3: autoDraw = True
+327.5574 	EXP 	text_3: autoDraw = False
+327.5741 	EXP 	secondcircle: autoDraw = True
+329.3574 	EXP 	secondcircle: autoDraw = False
+330.1761 	DATA 	Keypress: right
+330.1907 	EXP 	firstcircle_3: autoDraw = False
+330.1907 	EXP 	text_3: autoDraw = False
+330.1907 	EXP 	secondcircle: autoDraw = False
+330.1907 	EXP 	text_4: autoDraw = False
+330.1907 	EXP 	text_2: autoDraw = True
+331.4517 	EXP 	window1: mouseVisible = True

@@ -14,7 +14,7 @@ try
     display.iti = 2; % intertrial interval in sec
     % payoff contingencies
     params.currency = 'money'; % set to 'money' or 'points'
-    params.payoffHi = 10; % cents
+    params.payoffHi = 5; % cents
     params.payoffLo = 0; % cents
     % response key (only one required)
     params.respChar = {'space'};
@@ -108,8 +108,8 @@ try
         % (shown after the non-final block[s])
         if bkIdx<nBks
             Screen('TextSize',wid,rects.txtsize_msg);
-            msg = sprintf('Block %d complete.\n\nIn the next block, the timing and structure of the task may change.\n\nPress the spacebar to begin block %d.', bkIdx, bkIdx+1);
-            showMsg(wid,bkgd,msg);
+            msg = sprintf('Block %d complete.\n\nIn the next block, the timing and structure of the task may change.\n\nPress the spacebar to begin block .',bkIdx);
+            showMsg(wid,bkgd,msg,'q');
         end
         
     end % loop over blocks   
