@@ -11,12 +11,8 @@ block = params.bkIdx;
 datafid = params.datafid;
 
 % load scheduledWait
-if(strcmp(params.distrib, 'unif16'))
-    fileName = 'WTW/scheduledWaitHP.csv';
-else 
-    fileName = 'WTW/scheduledWaitLP.csv';
-end
-scheduledWait = csvread(fileName);
+if(strcmp(params.distrib, 'unif16')
+    
 
 % initial display settings
 display.timeLeft = sessSecs;
