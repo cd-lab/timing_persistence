@@ -12,9 +12,9 @@ datafid = params.datafid;
 
 % load scheduledWait
 if(strcmp(params.distrib, 'unif16'))
-    fileName = 'WTW/scheduledWaitHP.csv';
+    fileName = 'WTW-fixed/scheduledWaitHP.csv';
 else 
-    fileName = 'WTW/scheduledWaitLP.csv';
+    fileName = 'WTW-fixed/scheduledWaitLP.csv';
 end
 scheduledWait = csvread(fileName);
 

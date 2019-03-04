@@ -10,7 +10,7 @@ try
     
     %%% modifiable parameters
     % timing
-    sessMins = 0.5; % block duration in minutes: normally 15
+    sessMins = 10; % block duration in minutes: normally 15
     display.iti = 2; % intertrial interval in sec
     % payoff contingencies
     params.currency = 'money'; % set to 'money' or 'points'
@@ -37,7 +37,7 @@ try
     
     % name datafile
     cbal = 1; % all subjects receive the same block order
-    [dataFileName,dataHeader] = gatherSubInfo('wtw-timing', 1, '', cbal);
+    [dataFileName,dataHeader] = gatherSubInfo('wtw-timing-fixed', 1, '', cbal);
     params.datafid = fopen([dataFileName,'.txt'],'w');
     params.pracfid = fopen([dataFileName,'_prac.txt'],'w');
     
