@@ -1,0 +1,48 @@
+function ANStaskAnalysis
+
+dataDir = uigetdir;
+d = dir(fullfile(dataDir,'*.xls'));
+subIDs = {d(:).name}';
+%disp(subIDs);
+n=length(subIDs);
+
+ANS_data=[];
+
+for i=1:n
+    clf
+    ID=subIDs(i);
+    IDnum = extractBetween(ID,6,8);
+    subID=string(IDnum);
+    ANS_data(i,1)=subID;
+    
+    subData=readtable(sprintf('ANS_p%s.xls',subID),'Sheet','summary');
+    
+    T=subData(2,3);
+    ANS_data(i,2)=T{:,:};
+    
+    for ii=1:13
+        r=subData(2,ii+3);
+        ANS_data(i,ii+2)=r{:,:};
+    end
+    
+    all=subData(2,17);
+    all=all{:,:};
+    all=string(all);
+    all=str2num(all);
+    ANS_data(i,16)=all;
+    
+    WF=subData(2,32);
+    ANS_data(i,17)=WF{:,:};
+    
+    colNames={'subID','ANSnumTrial','ANS_1058','ANS_1.1225','ANS_1.194','ANS_1.2519','ANS_1.3349','ANS_1.4074','ANS_1.5','ANS_1.5854','ANS_1.6753','ANS_1.7873','ANS_1.8847','ANS_2','ANS_2.5080','ANS_overall','ANS_WeberFraction'};
+    data=num2cell(ANS_data);
+    ANSsubDataSummary = cell2struct(data, colNames, 2);
+    
+    path=(sprintf('sub_data/data_%s',subID));
+    save(path,'ANSsubDataSummary')
+    
+    
+end
+
+    
+end

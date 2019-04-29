@@ -1,4 +1,4 @@
-function [] = quickLook_kmsc2(subID)
+function aucs=quickLook_kmsc2(subID)
 % single-subject analysis
 % for 2 conditions (run in 2 successive blocks)
 %
@@ -15,15 +15,20 @@ function [] = quickLook_kmsc2(subID)
 % add path to directory of analysis subfunctions
 addpath('anSubFx');
 
+
+
 % identify the data file
 if nargin>0 && ischar(subID)
     % if subID was given, load the file
-    dfname = fullfile('data',sprintf('wtw-work-3_%s_1.mat',subID));
+    dfname = fullfile('data',sprintf('wtw-timing-fixed_%s_1.mat',subID));
 else
     % otherwise prompt the user to select a file
     [fname,pathname] = uigetfile('data/*');
     dfname = fullfile(pathname,fname);
 end
+
+initial_path= sprintf('auc_values/aucvalues_%s',subID);
+
 d = load(dfname);
 fprintf('file: %s\n',dfname);
 
@@ -34,13 +39,14 @@ id = subInfo.id; % the subject ID
 ceilVal = 40;
 
 % clear figure windows
-for f = 1:2, figure(f); clf; end
+for f = 1:3, figure(f); clf; end
 
 % analyze one block at a time
 nBks = length(trials);
 h = nan(1,nBks); % will hold handles to dataseries objects
 rtForBoxplot = []; % will accumulate data for a boxplot
 cName = cell(nBks,1);
+aucs = NaN(1,2);
 for b = 1:nBks
     
     try
@@ -69,10 +75,15 @@ for b = 1:nBks
     titleStr = sprintf('%s, cond = %s',id,cName{b});
     ssPlot(trials(b),titleStr,ceilVal); % external subfunction
     
+    
     % calculate the kaplan-meier survival curve and print auc results
     [kmsc, auc] = qtask_kmSurvival(trials(b));
+    kmCurves{b} = kmsc;
     fprintf('    auc = %1.2f s\n',auc);
+    aucs(b)=auc;
+    save(initial_path,'aucs')
 
+ 
     % plot the survival curve
     figure(2);
     hold on;
@@ -124,6 +135,12 @@ if length(unique(rtForBoxplot(:,2)))==nBks % ONLY if both blocks have data
     ylabel('Reward RT (s)');
 end
 
+savefig(figure(1),sprintf('figures/trial/Trial%s',subID))
+savefig(figure(2),sprintf('figures/AUC/AUC%s',subID))
+savefig(figure(3),sprintf('figures/RT/RT%s',subID))
+
+
+
 end
 
 
@@ -172,7 +189,7 @@ subInfo.money = subInfo.points/100;
 fprintf('id: %s\n',subInfo.id);
 fprintf('test date: %s\n',datestr(d.dataHeader.sessionTime));
 
-end % end of subfunction
+end % end of subfunction 
 
 
 

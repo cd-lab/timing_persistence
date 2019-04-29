@@ -12,6 +12,7 @@ readTimingdata <- function(fname="allParticipant.csv"){
   }
 }
 
+
 excludeFast <- function(){
   table <- Timingrawdata[1,]
   for(i in 2:length(Timingrawdata$rtRound1_3.rt)){
