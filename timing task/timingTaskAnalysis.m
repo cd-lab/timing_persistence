@@ -115,27 +115,20 @@ end
 ttl_accuracy(:,5)=isoutlier(ttl_accuracy(:,4),'median');
 
 a=find(ttl_accuracy(:,5)==1);
+ 
+%600,571,563,461
 
-n=length(a);
-i=0;
-while i<n
+%%i=0;
+%while i<n
     
-    disp(ttl_accuracy(a(end-i),1))
+    %disp(ttl_accuracy(a(end-i),1))
     %ttl_accuracy(a(end-i),:) = [];
     
-    i=i+1;
-end
+    %i=i+1;
+%end
 
 
 boxplot(ttl_accuracy(:,2))
-
-
-%for k=1:length(ttl_accuracy(:,5))
-    %if(ttl_accuracy(k,3)==1)
-        %fprintf('outlier ID: %d\n\n',ttl_accuracy(k,1));
-    %end
-%end
-%571
 
 plotAll_data=zeros(10,4);
 plotAll_data(:,1)=all_data(1:10,1);
@@ -171,14 +164,19 @@ figure(11)
 plot(curvefit,plotAll_data(:,1),plotAll_data(:,4))
 hold on
 
-title(sprintf('All Subjects Timing Task Plot %s',subID))
+title('All Subjects Timing Task Plot')
 xlabel('timing ratio stim1/stim2')
 ylabel('accuracy')
-hold off
+
+text(0.7,0.98,'SSE=0.0623')
+text(0.7,0.96,'rsquare=0.3237')
+text(0.7,0.93,'adjrsquare=0.1304')
 savefig(figure(11),'figures/timing_all.fig')
 
 disp(gof)
 disp(output)
+
+hold off
 
 fprintf('mean accuracy: %d\n\n',mean(ttl_accuracy(:,2)));
 fprintf('std: %d\n\n',std(ttl_accuracy(:,2)));
@@ -187,15 +185,23 @@ fprintf('min accuracy: %d\n\n',min(ttl_accuracy(:,2)));
 fprintf('mode accuracy: %d\n\n',mode(ttl_accuracy(:,2)));
 
 
-path2=('ttl_accuracy_all');
+path2=('timing_ttl_accuracy_all');
 save(path2,'ttl_accuracy')
 
 path3=('all_TimingData');
 save(path3,'plotAll_data')
 
+%acc_sum=num2cell(ttl_accuracy);
+
+%wtw_sum=struct2cell(subDataSummary);
+%wtw_sum=wtw_sum';
+
+%wtw_timing=[wtw_sum,acc_sum];
+%colNames = {'subID','WTWreward_bk1','WTWreward_bk2','WTWreward_ttl','WTWauc_bk1','WTWauc_bk2','WTWfitSlope_bk1','WTWfitParam_bk1','WTWfitSlope_bk2','WTWfitParam_bk2','Timing_ttlCorrect','Timing_trialNum','Timing_accuracy'};
+%wtw_timingStruct = cell2struct(wtw_timing, colNames, 2);
 end
 
-%acc_sum=num2cell(ttl_accuracy)
+
 %[subDataSummary(:).timing_acc]=
 
 %for ii=1:length(subDataSummary)

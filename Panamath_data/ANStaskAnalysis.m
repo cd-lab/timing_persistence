@@ -59,11 +59,11 @@ for i=1:n
     plot(curvefit,X,Y)
     %plot(ratios,ANSsubData(1,3:15),'-x')
     hold on
+    ylim([-inf 100])
     title(sprintf('ANS accuracy by ratio %s',subID))
     xlabel('ratio')
-    ylabel('accuracy')
+    ylabel('accuracy percentage')
     %legend('block1 trial','
-    
     
     hold off
     
@@ -76,13 +76,24 @@ ave_acc=mean(double(ANS_allSub(:,3:15)));
 ratios=[1.058,1.1225,1.1940,1.2519,1.3349,1.4074,1.5,1.5854,1.6753,1.7873,1.8847,2,2.508];
 x2=ratios';
 y2=ave_acc';
+
+ave_ratio_acc=cat(1,ratios,ave_acc);
+save('sub_data/ave_ratio_acc','ave_ratio_acc')
+
 [curvefit,gof,output]=fit(x2,y2,'poly1','normalize','on');
+
 figure(5)
 plot(curvefit,x2,y2)
 hold on
+ylim([-inf 100])
 title('ANS accuracy by ratio All Sub Average')
 xlabel('ratio')
-ylabel('accuracy')
+ylabel('accuracy percentage')
+text(1.15,99,'SSE=629.7100')
+text(1.15,97,'rsquare=0.6435')
+text(1.15,95,'adjrsquare=0.6111')
+text(1.15,93,'r=0.8022')
+text(1.15,91,'p-value=0.001')
 hold off
 savefig(figure(5),'figures/ANS_allAve.fig')
 
@@ -90,9 +101,11 @@ disp(curvefit)
 disp(gof)
 disp(output)
 
-text(1.15,109,'SSE=608.6864')
-text(1.15,107,'rsquare=0.6389')
-text(1.15,105,'adjrsquare=0.6061')
+text(1.15,99,'SSE=629.7100')
+text(1.15,97,'rsquare=0.6435')
+text(1.15,95,'adjrsquare=0.6111')
+text(1.15,93,'r=0.8022')
+text(1.15,91,'p-value=0.001')
 
 [R,P,RLO,RUP]=corrcoef(x2,y2,'alpha',0.05);
 

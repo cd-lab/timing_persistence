@@ -82,7 +82,7 @@ for i=1:n
     
     title(sprintf('learning curve %s',subID))
     xlabel('trials')
-    ylabel('quit policy')
+    ylabel('trial duration')
     legend('block1 trial','block1 fit','block2 fit','block2 trial')
     text(3,max(quit_trial(:,1)),sprintf('block1 slope %s',Fit1(1)))
     text(3,max(quit_trial(:,1))-2,sprintf('block2 slope %s',Fit2(1)))
